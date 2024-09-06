@@ -1,0 +1,26 @@
+body {
+    background-color: #2b2b2b;
+    width: 328px;
+    height: 200px;
+}
+p {
+    margin-bottom: 0px;
+}
+.info {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+#monnes-mening {
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+.title {
+    font-size: 1.8em;
+}
+.leftcol {
+    border-right: white 1px solid;
+    padding-right: 10px;
+    flex: 0 0 120px;
+    padding-left: 0px;
+}

@@ -16,20 +16,25 @@ fetch(api_link)
 
 
         // translate weather code according to weather_codes.json
-        fetch("fun_weather_codes.json")
+        fetch("https://urbanninja1010.github.io/Weather-widget/fun_weather_codes.json")
             .then(response => response.json())
             .then(translate => {
-                console.log(translate);
+                // console.log(translate);
                 translated_code = [];
                 Monnes_mening = [];
+
                 for (i = 0; i < code.length; i++) {
-                    const translation = translate[code[i]];
-                    translated_code[i] = translation ? translation["Description"] : code[i];
-                    Monnes_mening[i] = translation ? translation["Comment"] : code[i];
+                    const index = translate.findIndex(element => element.Code == code[i]);
+                    
+                    
+                    
+                    const translation = translate[index];
+                    translated_code[i] = translation ? translation["Description"] : index;
+                    Monnes_mening[i] = translation ? translation["Comment"] : index;
                 }
 
-        console.log(translated_code);
-        console.log(Monnes_mening);
+        // console.log(translated_code);
+        // console.log(Monnes_mening);
 
         lunch_index = time_axis_nodate.indexOf("12:00");
         
@@ -39,8 +44,8 @@ fetch(api_link)
         lunch_monne = Monnes_mening[lunch_index];
 
         document.getElementById("temp").innerText = `Temp: ${lunch_temperature} °C`;
-        document.getElementById("rain").innerText = `Er valt ${lunch_rain} mm regen.`;
-        document.getElementById("code").innerText = `De weersomstandigheden om 12:00 zijn ${lunch_code}.`;
+        document.getElementById("rain").innerText = `Regen: ${lunch_rain} mm`;
+        document.getElementById("code").innerText = `${lunch_code}.`;
         document.getElementById("monnes-mening").innerText = lunch_monne;
         
     });
