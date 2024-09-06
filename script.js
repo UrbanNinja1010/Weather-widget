@@ -19,6 +19,7 @@ fetch(api_link)
         fetch("fun_weather_codes.json")
             .then(response => response.json())
             .then(translate => {
+                console.log(translate);
                 translated_code = [];
                 Monnes_mening = [];
                 for (i = 0; i < code.length; i++) {
@@ -27,7 +28,7 @@ fetch(api_link)
                 }
 
 
-                
+
         lunch_index = time_axis_nodate.indexOf("12:00");
         
         lunch_temperature = temperature[lunch_index];
