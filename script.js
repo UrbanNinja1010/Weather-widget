@@ -40,12 +40,14 @@ fetch(api_link)
         
         lunch_temperature = temperature[lunch_index];
         lunch_rain = rain[lunch_index];
-        lunch_code = code[lunch_index];
+        lunch_code = translated_code[lunch_index];
         // log for testing
         console.log(lunch_temperature);
         console.log(lunch_rain);
         console.log(lunch_code);
 
+
+        document.getElementById("content").innerText = `De temperatuur om 12:00 is ${lunch_temperature} graden Celsius, er valt ${lunch_rain} mm regen en de weersomstandigheden zijn ${lunch_code}.`;
 
     });
 });
