@@ -1,32 +1,32 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Weather widget</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="leftcol col text-right">
-                <h2 class="title info font-weight-bold text-white ">Om 12 uur:</h2>
-                <noscript>
-                    <h2 class="title info font-weight-bold text-white ">Javascript is uitgeschakeld</h2>
-                    <p class="font-weight-bold text-white">Dit weerwidget werkt niet zonder javascript, schakel het a.u.b. in</p>
-                </noscript>
+<html lang="nl">
+    <head>
+        <meta charset="utf-8">
+        <title>Weather widget</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="leftcol col text-right">
+                    <h2 class="title info font-weight-bold text-white ">Om 12 uur:</h2>
+                    <noscript>
+                        <h2 class="title info font-weight-bold text-white ">Javascript is uitgeschakeld</h2>
+                        <p class="font-weight-bold text-white">Dit weerwidget werkt niet zonder javascript, schakel het a.u.b. in</p>
+                    </noscript>
+                </div>
+                <div class="info col text-left">
+                    <p id="temp" class="font-weight-bold text-white" style="font-size: 1em"></p>
+                    <p id="rain" class="font-weight-bold text-white" style="font-size: 1em"></p>
+                    <p id="code" class="font-weight-bold text-white" style="font-size: 1em"></p>
+                </div>
             </div>
-            <div class="info col text-left">
-                <p id="temp" class="font-weight-bold text-white" style="font-size: 1em"></p>
-                <p id="rain" class="font-weight-bold text-white" style="font-size: 1em"></p>
-                <p id="code" class="font-weight-bold text-white" style="font-size: 1em"></p>
-            </div>
+            
+            <p id="monnes-mening" class="font-weight-bold text-white" ></p>
         </div>
-        
-        <p id="monnes-mening" class="font-weight-bold text-white" ></p>
-    </div>
-    <script src="script.js"></script>
-</body>
+        <script src="script.js"></script>
+    </body>
 </html>
 
