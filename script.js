@@ -21,19 +21,20 @@ fetch(api_link)
 
 
         // translate weather code according to weather_codes.json
-        fetch("weather_codes.json")
+        fetch("fun_weather_codes.json")
             .then(response => response.json())
             .then(translate => {
                 translated_code = [];
                 for (i = 0; i < code.length; i++) {
-                    translated_code[i] = translate[code[i]];
+                    translated_code[i] = translate[code[i]]["Description"];
+                    Monnes_mening = translate[code[i]]["Comment"];
                 }
 
 
         
-        console.log(temperature);
-        console.log(rain);
-        console.log(time_axis_nodate);
+        // console.log(temperature);
+        // console.log(rain);
+        // console.log(time_axis_nodate);
         
         // index of 12:00
         lunch_index = time_axis_nodate.indexOf("12:00");
@@ -41,13 +42,18 @@ fetch(api_link)
         lunch_temperature = temperature[lunch_index];
         lunch_rain = rain[lunch_index];
         lunch_code = translated_code[lunch_index];
+        lunch_monne = Monnes_mening[lunch_index];
         // log for testing
-        console.log(lunch_temperature);
-        console.log(lunch_rain);
-        console.log(lunch_code);
+        // console.log(lunch_temperature);
+        // console.log(lunch_rain);
+        // console.log(lunch_code);
 
 
-        document.getElementById("content").innerText = `De temperatuur om 12:00 is ${lunch_temperature} graden Celsius, er valt ${lunch_rain} mm regen en de weersomstandigheden zijn ${lunch_code}.`;
-
+        // fill the content in index.html
+        document.getElementById("temp").innerText = `Temp: ${lunch_temperature} °C`;
+        document.getElementById("rain").innerText = `Er valt ${lunch_rain} mm regen.`;
+        document.getElementById("code").innerText = `De weersomstandigheden om 12:00 zijn ${lunch_code}.`;
+        document.getElementById("monnes-mening").innerText = lunch_monne;
+        
     });
 });
