@@ -48,4 +48,4 @@ fetch(api_link)
 
 
     });
-
+});
