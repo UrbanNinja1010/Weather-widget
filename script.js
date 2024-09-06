@@ -20,31 +20,21 @@ fetch(api_link)
             .then(response => response.json())
             .then(translate => {
                 translated_code = [];
+                Monnes_mening = [];
                 for (i = 0; i < code.length; i++) {
                     translated_code[i] = translate[code[i]]["Description"];
-                    Monnes_mening = translate[code[i]]["Comment"];
+                    Monnes_mening[i] = translate[code[i]]["Comment"];
                 }
 
 
-        
-        // console.log(temperature);
-        // console.log(rain);
-        // console.log(time_axis_nodate);
-        
-        // index of 12:00
+                
         lunch_index = time_axis_nodate.indexOf("12:00");
         
         lunch_temperature = temperature[lunch_index];
         lunch_rain = rain[lunch_index];
         lunch_code = translated_code[lunch_index];
         lunch_monne = Monnes_mening[lunch_index];
-        // log for testing
-        // console.log(lunch_temperature);
-        // console.log(lunch_rain);
-        // console.log(lunch_code);
 
-
-        // fill the content in index.html
         document.getElementById("temp").innerText = `Temp: ${lunch_temperature} °C`;
         document.getElementById("rain").innerText = `Er valt ${lunch_rain} mm regen.`;
         document.getElementById("code").innerText = `De weersomstandigheden om 12:00 zijn ${lunch_code}.`;
