@@ -1,0 +1,114 @@
+[
+    {
+        "Code": "0",
+        "Description": "Clear sky"
+    },
+    {
+        "Code": "1",
+        "Description": "Mainly clear"
+    },
+    {
+        "Code": "2",
+        "Description": "Partly cloudy"
+    },
+    {
+        "Code": "3",
+        "Description": "Overcast"
+    },
+    {
+        "Code": "45",
+        "Description": "Fog"
+    },
+    {
+        "Code": "48",
+        "Description": "Depositing rime fog"
+    },
+    {
+        "Code": "51",
+        "Description": "Drizzle: Light intensity"
+    },
+    {
+        "Code": "53",
+        "Description": "Drizzle: Moderate intensity"
+    },
+    {
+        "Code": "55",
+        "Description": "Drizzle: Dense intensity"
+    },
+    {
+        "Code": "56",
+        "Description": "Freezing Drizzle: Light intensity"
+    },
+    {
+        "Code": "57",
+        "Description": "Freezing Drizzle: Dense intensity"
+    },
+    {
+        "Code": "61",
+        "Description": "Rain: Slight intensity"
+    },
+    {
+        "Code": "63",
+        "Description": "Rain: Moderate intensity"
+    },
+    {
+        "Code": "65",
+        "Description": "Rain: Heavy intensity"
+    },
+    {
+        "Code": "66",
+        "Description": "Freezing Rain: Light intensity"
+    },
+    {
+        "Code": "67",
+        "Description": "Freezing Rain: Heavy intensity"
+    },
+    {
+        "Code": "71",
+        "Description": "Snow fall: Slight intensity"
+    },
+    {
+        "Code": "73",
+        "Description": "Snow fall: Moderate intensity"
+    },
+    {
+        "Code": "75",
+        "Description": "Snow fall: Heavy intensity"
+    },
+    {
+        "Code": "77",
+        "Description": "Snow grains"
+    },
+    {
+        "Code": "80",
+        "Description": "Rain showers: Slight intensity"
+    },
+    {
+        "Code": "81",
+        "Description": "Rain showers: Moderate intensity"
+    },
+    {
+        "Code": "82",
+        "Description": "Rain showers: Violent intensity"
+    },
+    {
+        "Code": "85",
+        "Description": "Snow showers: Slight intensity"
+    },
+    {
+        "Code": "86",
+        "Description": "Snow showers: Heavy intensity"
+    },
+    {
+        "Code": "95",
+        "Description": "Thunderstorm: Slight intensity"
+    },
+    {
+        "Code": "96",
+        "Description": "Thunderstorm with slight hail"
+    },
+    {
+        "Code": "99",
+        "Description": "Thunderstorm with heavy hail"
+    }
+]
