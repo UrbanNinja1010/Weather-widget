@@ -23,11 +23,13 @@ fetch(api_link)
                 translated_code = [];
                 Monnes_mening = [];
                 for (i = 0; i < code.length; i++) {
-                    translated_code[i] = translate[code[i]]["Description"];
-                    Monnes_mening[i] = translate[code[i]]["Comment"];
+                    const translation = translate[code[i]];
+                    translated_code[i] = translation ? translation["Description"] : code[i];
+                    Monnes_mening[i] = translation ? translation["Comment"] : code[i];
                 }
 
-
+        console.log(translated_code);
+        console.log(Monnes_mening);
 
         lunch_index = time_axis_nodate.indexOf("12:00");
         
