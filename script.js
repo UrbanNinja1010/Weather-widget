@@ -1,9 +1,4 @@
-
-document.getElementById("content").innerText = "Even geduld, het weerbericht wordt opgehaald...";
-
 api_link = "https://api.open-meteo.com/v1/forecast?latitude=51.79776957724414&longitude=5.256986342438848&minutely_15=temperature_2m,precipitation,weather_code&timezone=Europe%2FBerlin&forecast_days=1&models=best_match"
-
-
 
 fetch(api_link)
     .then(response => response.json())
