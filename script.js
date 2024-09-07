@@ -26,8 +26,6 @@ fetch(api_link)
                 for (i = 0; i < code.length; i++) {
                     const index = translate.findIndex(element => element.Code == code[i]);
                     
-                    
-                    
                     const translation = translate[index];
                     translated_code[i] = translation ? translation["Description"] : index;
                     Monnes_mening[i] = translation ? translation["Comment"] : index;
@@ -35,8 +33,21 @@ fetch(api_link)
 
         // console.log(translated_code);
         // console.log(Monnes_mening);
+        
 
-        lunch_index = time_axis_nodate.indexOf("12:00");
+        // current time rounded to 15 min
+        current_time = new Date();
+        current_time.setMilliseconds(0);
+        
+        current_time.setSeconds(0);
+        current_time.setMinutes(Math.round(current_time.getMinutes() / 15) * 15);
+        current_time = current_time.toLocaleTimeString('nl-NL').substr(0, 5);
+
+        // lunch_index = time_axis_nodate.indexOf("12:00");
+        lunch_index = time_axis_nodate.indexOf(current_time);
+
+
+
         
         lunch_temperature = temperature[lunch_index];
         lunch_rain = rain[lunch_index];
@@ -47,6 +58,7 @@ fetch(api_link)
         document.getElementById("rain").innerText = `Regen: ${lunch_rain} mm`;
         document.getElementById("code").innerText = `${lunch_code}.`;
         document.getElementById("monnes-mening").innerText = lunch_monne;
-        
+        document.getElementById("time").innerText = `Om ${current_time}`;
+
     });
 });
