@@ -32,7 +32,7 @@ fetch(api_link)
 
                     
                     const r =  Math.round(Math.random() * (translation["Comments"].length-1));
-                    console.log(r, translation["Comments"].length);
+                    //console.log(r, translation["Comments"].length);
                     Monnes_mening[i] = translation ? translation["Comments"][r] : "Monne: ik vind hier niks van";
                 }
 
@@ -67,3 +67,37 @@ fetch(api_link)
 
     });
 });
+
+function refreshAtQuarterHour() {
+    const now = new Date();
+    const minutes = now.getMinutes();
+    const seconds = now.getSeconds();
+    
+    // Calculate how many minutes until the next quarter (xx:00, xx:15, xx:30, xx:45)
+    const nextQuarter = [0, 15, 30, 45].find(min => min > minutes) || 0;
+    console.log("nextQuarter: ", nextQuarter);
+    console.log("minutes: ", minutes);
+    let minutesUntilNextQuarter = (nextQuarter - minutes);
+
+    if (minutesUntilNextQuarter < 0) {
+        minutesUntilNextQuarter = minutesUntilNextQuarter + 60
+    }
+    else if (minutesUntilNextQuarter == 0) {
+        minutesUntilNextQuarter = 15
+    };
+
+
+    const secondsUntilNextQuarter = (minutesUntilNextQuarter * 60) - seconds;
+    
+    // log when next restart is
+    console.log(`Current time: ${now.toLocaleTimeString('nl-NL')}`);
+    console.log("next restart ", minutesUntilNextQuarter, " minutes from now");
+
+    // Set a timeout to refresh the page exactly at the next quarter
+    setTimeout(() => {
+        window.location.reload();
+    }, secondsUntilNextQuarter * 1000);
+}
+
+// Call the function once, then set it to refresh every 15 minutes thereafter
+refreshAtQuarterHour();
