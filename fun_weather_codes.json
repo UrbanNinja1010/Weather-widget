@@ -5,7 +5,10 @@
         "Comments": [
             "Monne zegt: 'Perfect weer voor een broodje, geen wolkje te zien!'",
             "Monne: 'Zonnetje erbij, tijd voor een lange lunchwandeling!'",
-            "Monne: 'Het broodje smaakt altijd beter als de lucht zo blauw is.'"
+            "Monne: 'Het broodje smaakt altijd beter als de lucht zo blauw is.'",
+            "Monne klaagt: 'Te warm, ik smelt nog voordat ik mijn broodje haal.'",
+            "Monne: 'Zulk weer en ik moet binnen zitten werken, oneerlijk!'",
+            "Monne: 'Die felle zon, krijg er hoofdpijn van.'"
         ]
     },
     {
@@ -14,7 +17,10 @@
         "Comments": [
             "Monne: 'Je kan die zonnestralen bijna proeven bij de Jumbo!'",
             "Monne: 'Nog net helder genoeg voor een droog broodje!'",
-            "Monne: 'Lekker weer, en dat broodje ligt al op je te wachten.'"
+            "Monne: 'Lekker weer, en dat broodje ligt al op je te wachten.'",
+            "Monne klaagt: 'Overwegend helder? Dat betekent toch wolken.'",
+            "Monne: 'Altijd hetzelfde saaie weer hier.'",
+            "Monne: 'Kon het niet gewoon volledig helder zijn?'"
         ]
     },
     {
@@ -23,7 +29,10 @@
         "Comments": [
             "Monne: 'Het is half bewolkt, maar dat broodje haalt zichzelf niet!'",
             "Monne: 'Nog wat wolken, maar ideaal voor een broodjewandeling!'",
-            "Monne: 'Klein beetje bewolking, maar die sandwich straalt altijd.'"
+            "Monne: 'Klein beetje bewolking, maar die sandwich straalt altijd.'",
+            "Monne klaagt: 'Gedeeltelijk bewolkt? Daar gaat mijn zonnige humeur.'",
+            "Monne: 'Met die wolken is het maar somber buiten.'",
+            "Monne: 'Half bewolkt en half zo veel zin in een wandeling.'"
         ]
     },
     {
@@ -32,7 +41,10 @@
         "Comments": [
             "Monne: 'Het is grijs, maar je broodje is de zonnestraal die je nodig hebt!'",
             "Monne: 'Bewolkt of niet, de slager is altijd open.'",
-            "Monne: 'Grijs weer? Broodje erbij en de dag is gered!'"
+            "Monne: 'Grijs weer? Broodje erbij en de dag is gered!'",
+            "Monne klaagt: 'Bewolkt... natuurlijk, altijd op mijn vrije dag.'",
+            "Monne: 'Met dit weer kun je net zo goed binnen blijven.'",
+            "Monne: 'Bewolkt en grauw, dat wordt een korte lunch.'"
         ]
     },
     {
@@ -41,7 +53,10 @@
         "Comments": [
             "Monne: 'Goed kijken, anders loop je zo de Jumbo voorbij in de mist!'",
             "Monne: 'Mistig, maar je neus brengt je wel naar dat broodje.'",
-            "Monne: 'In de mist verdwijnt alles... behalve je trek!'"
+            "Monne: 'In de mist verdwijnt alles... behalve je trek!'",
+            "Monne klaagt: 'Mist? Geweldig, nu zie ik niets meer.'",
+            "Monne: 'Straks verdwaal ik nog op weg naar mijn broodje.'",
+            "Monne: 'Mistig weer, past wel bij mijn humeur.'"
         ]
     },
     {
@@ -50,7 +65,10 @@
         "Comments": [
             "Monne: 'Zorg dat je niet vastvriest op weg naar de slager!'",
             "Monne: 'Koude mist, maar een warm broodje maakt alles goed.'",
-            "Monne: 'In deze kou moet je wel extra snel naar de Jumbo!'"
+            "Monne: 'In deze kou moet je wel extra snel naar de Jumbo!'",
+            "Monne klaagt: 'Bevroren mist? Kan het nog erger?'",
+            "Monne: 'Ik haat het als mijn bril bevriest tijdens het lopen.'",
+            "Monne: 'Misschien moet ik het broodje maar overslaan vandaag.'"
         ]
     },
     {
@@ -59,7 +77,10 @@
         "Comments": [
             "Monne: 'Een beetje motregen, niks wat een goed broodje niet kan oplossen.'",
             "Monne: 'Lichte regen, maar dat broodje loopt niet weg!'",
-            "Monne: 'Motregen is alleen maar extra motivatie voor een warme lunch.'"
+            "Monne: 'Motregen is alleen maar extra motivatie voor een warme lunch.'",
+            "Monne klaagt: 'Altijd die motregen, het verpest alles.'",
+            "Monne: 'Motregen, daar word ik nou chagrijnig van.'",
+            "Monne: 'Misschien vandaag maar geen wandeling.'"
         ]
     },
     {
@@ -68,7 +89,10 @@
         "Comments": [
             "Monne: 'Matige motregen, maar wel sterke trek in een broodje!'",
             "Monne: 'Snel naar de slager, voor de regen echt losbarst!'",
-            "Monne: 'Matige motregen, maar dat broodje smaakt straks beter dan ooit.'"
+            "Monne: 'Matige motregen, maar dat broodje smaakt straks beter dan ooit.'",
+            "Monne klaagt: 'Matige regen, net genoeg om me doorweekt te krijgen.'",
+            "Monne: 'Waarom moet het altijd regenen als ik naar buiten wil?'",
+            "Monne: 'Regen en honger, wat een combinatie.'"
         ]
     },
     {
@@ -77,7 +101,10 @@
         "Comments": [
             "Monne: 'Bij deze regen moet je rennen naar de Jumbo!'",
             "Monne: 'Dikke motregen, tijd om die regenjas uit de kast te halen.'",
-            "Monne: 'Dikke motregen, maar voor een broodje moet je wat over hebben!'"
+            "Monne: 'Dikke motregen, maar voor een broodje moet je wat over hebben!'",
+            "Monne klaagt: 'Met deze regen blijf ik liever binnen.'",
+            "Monne: 'Doorweekt aankomen voor een broodje? Nee bedankt.'",
+            "Monne: 'Misschien moeten we het broodje maar overslaan.'"
         ]
     },
     {
@@ -86,7 +113,10 @@
         "Comments": [
             "Monne: 'Voorzichtig lopen, glibberend op zoek naar een broodje!'",
             "Monne: 'Het glimt buiten, maar dat broodje trekt nog harder.'",
-            "Monne: 'Ijzelregen, glijden voor een broodje is de nieuwe sport.'"
+            "Monne: 'Ijzelregen, glijden voor een broodje is de nieuwe sport.'",
+            "Monne klaagt: 'Ijzel? Alsof motregen niet erg genoeg was.'",
+            "Monne: 'Straks val ik nog op weg naar de slager.'",
+            "Monne: 'Misschien is een broodje het risico niet waard.'"
         ]
     },
     {
@@ -95,7 +125,10 @@
         "Comments": [
             "Monne: 'Kans op ijsbaan... maar het broodje wacht!'",
             "Monne: 'De straten zijn glad, maar je verlangen naar een sandwich is groot.'",
-            "Monne: 'Een spiegelgladde weg, tijd om binnen te blijven? Nee, broodjes halen!'"
+            "Monne: 'Een spiegelgladde weg, tijd om binnen te blijven? Nee, broodjes halen!'",
+            "Monne klaagt: 'Met dit weer breek ik nog mijn nek.'",
+            "Monne: 'Ijzel en regen, kan het nog erger?'",
+            "Monne: 'Vandaag maar een keer overslaan.'"
         ]
     },
     {
@@ -104,7 +137,10 @@
         "Comments": [
             "Monne: 'Een spatje regen, maar niet erg genoeg om dat broodje te missen!'",
             "Monne: 'Lichte regen, maar je lunchwandeling moet doorgaan.'",
-            "Monne: 'Je wordt misschien nat, maar dat broodje maakt alles goed.'"
+            "Monne: 'Je wordt misschien nat, maar dat broodje maakt alles goed.'",
+            "Monne klaagt: 'Zelfs lichte regen bederft mijn dag al.'",
+            "Monne: 'Nat worden voor een broodje? Liever niet.'",
+            "Monne: 'Altijd die regen, ik word er gek van.'"
         ]
     },
     {
@@ -113,7 +149,10 @@
         "Comments": [
             "Monne: 'Pak die paraplu, maar haal wel je broodje.'",
             "Monne: 'Zonder paraplu? Dan loop je voor het broodje én een gratis douche.'",
-            "Monne: 'Matige regen, maar je broodje is de echte traktatie.'"
+            "Monne: 'Matige regen, maar je broodje is de echte traktatie.'",
+            "Monne klaagt: 'Matige regen, mijn haar zit straks weer helemaal door de war.'",
+            "Monne: 'Waarom regent het altijd als ik trek heb?'",
+            "Monne: 'Misschien moet ik maar binnen blijven vandaag.'"
         ]
     },
     {
@@ -122,7 +161,10 @@
         "Comments": [
             "Monne: 'Je gaat nat, maar dat broodje is het waard!'",
             "Monne: 'Zware regen, maar een broodje met extra saus is altijd goed.'",
-            "Monne: 'Zwaar weer voor een sandwichheld!'"
+            "Monne: 'Zwaar weer voor een sandwichheld!'",
+            "Monne klaagt: 'Met deze stortbui blijf ik wel binnen.'",
+            "Monne: 'Ik ga echt niet naar buiten met dit weer.'",
+            "Monne: 'Zware regen? Dan maar een keer overslaan.'"
         ]
     },
     {
@@ -131,7 +173,10 @@
         "Comments": [
             "Monne: 'Een glibberige missie voor een broodje, maar geen uitdaging te groot!'",
             "Monne: 'Ijzelregen, maar het broodje is onmisbaar!'",
-            "Monne: 'Lichte ijzelregen, misschien is het vandaag beter om te laten bezorgen.'"
+            "Monne: 'Lichte ijzelregen, misschien is het vandaag beter om te laten bezorgen.'",
+            "Monne klaagt: 'Ijzelregen? Dat meen je niet.'",
+            "Monne: 'Ik ga echt niet uitglijden voor een broodje.'",
+            "Monne: 'Misschien toch maar binnen lunchen.'"
         ]
     },
     {
@@ -140,7 +185,10 @@
         "Comments": [
             "Monne: 'Trek je schaatsen aan voor deze broodjestocht!'",
             "Monne: 'Zware ijzelregen, maar jij bent een doorzetter.'",
-            "Monne: 'Ijzelregen en een epische tocht naar de slager.'"
+            "Monne: 'Ijzelregen en een epische tocht naar de slager.'",
+            "Monne klaagt: 'Dit is gewoon gevaarlijk, ik blijf binnen.'",
+            "Monne: 'Zware ijzelregen? Geen broodje is dat waard.'",
+            "Monne: 'Vandaag maar een soepje uit de kantine.'"
         ]
     },
     {
@@ -149,7 +197,10 @@
         "Comments": [
             "Monne: 'Licht sneeuwtapijtje, net als poedersuiker op je broodje.'",
             "Monne: 'Sneeuwval en een warm broodje, perfecte combinatie!'",
-            "Monne: 'Licht sneeuwt, misschien is een warme soep bij je broodje een goed idee.'"
+            "Monne: 'Licht sneeuwt, misschien is een warme soep bij je broodje een goed idee.'",
+            "Monne klaagt: 'Sneeuw? Daar heb ik echt geen zin in.'",
+            "Monne: 'Altijd die kou, kan het niet gewoon lente zijn?'",
+            "Monne: 'Sneeuwvlokken en koude handen, geweldig.'"
         ]
     },
     {
@@ -158,7 +209,10 @@
         "Comments": [
             "Monne: 'Het sneeuwt, maar met een broodje in de hand maakt dat niet uit!'",
             "Monne: 'Sneeuwvlokken en een sandwich, het perfecte winterduo.'",
-            "Monne: 'Sneeuwbui of niet, de Jumbo is altijd in zicht!'"
+            "Monne: 'Sneeuwbui of niet, de Jumbo is altijd in zicht!'",
+            "Monne klaagt: 'Matige sneeuwval, mijn schoenen worden weer doorweekt.'",
+            "Monne: 'Sneeuw en kou, kan het nog erger?'",
+            "Monne: 'Misschien toch maar binnen blijven vandaag.'"
         ]
     },
     {
@@ -167,7 +221,10 @@
         "Comments": [
             "Monne: 'Winterwonderland, maar we gaan voor broodjes in plaats van ski's!'",
             "Monne: 'Zware sneeuwval? Alleen voor de echte broodje-liefhebber.'",
-            "Monne: 'Sneeuwstorm of niet, die sandwich is het waard!'"
+            "Monne: 'Sneeuwstorm of niet, die sandwich is het waard!'",
+            "Monne klaagt: 'Zware sneeuw? Ik kom de parkeerplaats niet eens af.'",
+            "Monne: 'Dit weer is gekkenwerk, ik blijf binnen.'",
+            "Monne: 'Zelfs het broodje kan me niet naar buiten krijgen vandaag.'"
         ]
     },
     {
@@ -176,7 +233,10 @@
         "Comments": [
             "Monne: 'Sneeuwkorrels, net kleine broodkruimels!'",
             "Monne: 'Sneeuwkorrels op de weg, broodkruimels in je maag!'",
-            "Monne: 'Sneeuwkorrels? Zolang je geen sandwichkorrels krijgt!'"
+            "Monne: 'Sneeuwkorrels? Zolang je geen sandwichkorrels krijgt!'",
+            "Monne klaagt: 'Sneeuwkorrels, daar zit ik echt op te wachten.'",
+            "Monne: 'Altijd weer dat rare weer hier.'",
+            "Monne: 'Kan het niet gewoon normaal sneeuwen?'"
         ]
     },
     {
@@ -185,7 +245,10 @@
         "Comments": [
             "Monne: 'Een snelle bui, hopelijk ben je net op tijd bij de slager!'",
             "Monne: 'Lichte bui, maar die sandwich kun je nog wel halen!'",
-            "Monne: 'Korte regenbui, maar je trek blijft groot.'"
+            "Monne: 'Korte regenbui, maar je trek blijft groot.'",
+            "Monne klaagt: 'Altijd die buien als ik naar buiten wil.'",
+            "Monne: 'Lichte regenbui, maar genoeg om me te irriteren.'",
+            "Monne: 'Misschien vandaag maar overslaan.'"
         ]
     },
     {
@@ -194,7 +257,10 @@
         "Comments": [
             "Monne: 'Regenbui, tijd om dat broodje zo snel mogelijk te halen!'",
             "Monne: 'Matige regenbuien, maar niks houdt je tegen voor die lunch!'",
-            "Monne: 'Regenbui of niet, een broodje smaakt altijd.'"
+            "Monne: 'Regenbui of niet, een broodje smaakt altijd.'",
+            "Monne klaagt: 'Matige buien, daar gaat mijn lunchwandeling.'",
+            "Monne: 'Regen, regen en nog eens regen.'",
+            "Monne: 'Ik heb geen zin om nat te worden.'"
         ]
     },
     {
@@ -203,7 +269,10 @@
         "Comments": [
             "Monne: 'Je gaat doorweekt zijn, maar dat broodje zal smaken!'",
             "Monne: 'Zware buien, maar een broodje maakt alles goed.'",
-            "Monne: 'Zware regen, tijd om de paraplu én het broodje te pakken.'"
+            "Monne: 'Zware regen, tijd om de paraplu én het broodje te pakken.'",
+            "Monne klaagt: 'Met dit noodweer blijf ik binnen.'",
+            "Monne: 'Zware buien? Ik denk het niet.'",
+            "Monne: 'Zelfs voor een broodje ga ik niet door deze regen.'"
         ]
     },
     {
@@ -212,7 +281,10 @@
         "Comments": [
             "Monne: 'Licht sneeuwt, maar niks stopt de broodjesjacht!'",
             "Monne: 'Lichte sneeuwbuien, maar broodjes maken alles goed.'",
-            "Monne: 'Je ziet misschien wat sneeuwvlokken, maar dat broodje roept.'"
+            "Monne: 'Je ziet misschien wat sneeuwvlokken, maar dat broodje roept.'",
+            "Monne klaagt: 'Sneeuwbuien, daar heb ik geen zin in.'",
+            "Monne: 'Altijd die sneeuw als ik naar buiten wil.'",
+            "Monne: 'Misschien vandaag maar binnen lunchen.'"
         ]
     },
     {
@@ -221,7 +293,10 @@
         "Comments": [
             "Monne: 'Zware sneeuwval, tijd voor een broodje én warme chocolademelk.'",
             "Monne: 'Zware sneeuw, maar dat broodje houdt je warm.'",
-            "Monne: 'Sneeuwstorm, maar met een broodje ben je altijd op koers.'"
+            "Monne: 'Sneeuwstorm, maar met een broodje ben je altijd op koers.'",
+            "Monne klaagt: 'Ik waag me niet in deze sneeuwbuien.'",
+            "Monne: 'Zware sneeuw, mijn auto zit vast.'",
+            "Monne: 'Vandaag maar een soepje uit de kantine.'"
         ]
     },
     {
@@ -230,7 +305,10 @@
         "Comments": [
             "Monne: 'Een beetje donder, maar jij dender door naar de Jumbo!'",
             "Monne: 'Licht onweer, maar je broodje is onweerstaanbaar.'",
-            "Monne: 'Een donderslag en een sandwich, perfect duo.'"
+            "Monne: 'Een donderslag en een sandwich, perfect duo.'",
+            "Monne klaagt: 'Onweer? Daar ga ik echt niet doorheen.'",
+            "Monne: 'Met dit weer blijf ik liever binnen.'",
+            "Monne: 'Licht onweer of niet, ik sla over.'"
         ]
     },
     {
@@ -239,7 +317,10 @@
         "Comments": [
             "Monne: 'Hagel, maar als je snel loopt ben je binnen voor de ergste bui!'",
             "Monne: 'Lichte hagel, tijd om je helm op te zetten voor het broodje!'",
-            "Monne: 'Hagel of niet, die sandwich wacht niet.'"
+            "Monne: 'Hagel of niet, die sandwich wacht niet.'",
+            "Monne klaagt: 'Hagel? Nee bedankt.'",
+            "Monne: 'Ik ga niet naar buiten als het hagelt.'",
+            "Monne: 'Vandaag maar een broodje uit de automaat.'"
         ]
     },
     {
@@ -248,7 +329,10 @@
         "Comments": [
             "Monne: 'Zware hagel, dit keer toch maar even het broodje laten bezorgen?'",
             "Monne: 'Zware hagel, misschien vandaag binnen lunchen?'",
-            "Monne: 'Zware hagel, misschien morgen beter voor een broodje.'"
+            "Monne: 'Zware hagel, misschien morgen beter voor een broodje.'",
+            "Monne klaagt: 'Zware hagel? Ik blijf hier.'",
+            "Monne: 'Geen broodje is dit weer waard.'",
+            "Monne: 'Misschien moet ik maar vroeg naar huis gaan.'"
         ]
     }
 ]
