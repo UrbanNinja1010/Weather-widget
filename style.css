@@ -13,8 +13,9 @@ p {
     padding-right: 0px;
 }
 #monnes-mening {
+    border-top: white 1px solid;
     font-size: 1em;
-    margin-top: 10px;
+    padding-top: 5px;
 }
 .title {
     font-size: 1.8em;
