@@ -31,9 +31,9 @@ fetch(api_link)
 
 
                     
-                    const r =  Math.round(Math.random() * (translation["Comment"].length-1));
-                    console.log(r, translation["Comment"].length);
-                    Monnes_mening[i] = translation ? translation["Comment"][r] : "Monne: ik vind hier niks van";
+                    const r =  Math.round(Math.random() * (translation["Comments"].length-1));
+                    console.log(r, translation["Comments"].length);
+                    Monnes_mening[i] = translation ? translation["Comments"][r] : "Monne: ik vind hier niks van";
                 }
 
         // console.log(translated_code);
