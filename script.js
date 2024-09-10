@@ -30,7 +30,12 @@ fetch(api_link)
                     
                     const translation = translate[index];
                     translated_code[i] = translation ? translation["Description"] : index;
-                    Monnes_mening[i] = translation ? translation["Comment"] : index;
+
+
+                    
+                    const r =  Math.round(Math.random() * (translation["Comment"].length-1));
+                    console.log(r, translation["Comment"].length);
+                    Monnes_mening[i] = translation ? translation["Comment"][r] : "Monne: ik vind hier niks van";
                 }
 
         // console.log(translated_code);
