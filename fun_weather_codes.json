@@ -2,141 +2,253 @@
     {
         "Code": "0",
         "Description": "Strakblauwe lucht",
-        "Comment": "Monne zegt: 'Perfect weer voor een broodje, geen wolkje te zien!'"
+        "Comments": [
+            "Monne zegt: 'Perfect weer voor een broodje, geen wolkje te zien!'",
+            "Monne: 'Zonnetje erbij, tijd voor een lange lunchwandeling!'",
+            "Monne: 'Het broodje smaakt altijd beter als de lucht zo blauw is.'"
+        ]
     },
     {
         "Code": "1",
         "Description": "Overwegend helder",
-        "Comment": "Monne: 'Je kan die zonnestralen bijna proeven bij de Jumbo!'"
+        "Comments": [
+            "Monne: 'Je kan die zonnestralen bijna proeven bij de Jumbo!'",
+            "Monne: 'Nog net helder genoeg voor een droog broodje!'",
+            "Monne: 'Lekker weer, en dat broodje ligt al op je te wachten.'"
+        ]
     },
     {
         "Code": "2",
         "Description": "Gedeeltelijk bewolkt",
-        "Comment": "Monne: 'Het is half bewolkt, maar dat broodje haalt zichzelf niet!'"
+        "Comments": [
+            "Monne: 'Het is half bewolkt, maar dat broodje haalt zichzelf niet!'",
+            "Monne: 'Nog wat wolken, maar ideaal voor een broodjewandeling!'",
+            "Monne: 'Klein beetje bewolking, maar die sandwich straalt altijd.'"
+        ]
     },
     {
         "Code": "3",
         "Description": "Bewolkt",
-        "Comment": "Monne: 'Het is grijs, maar je broodje is de zonnestraal die je nodig hebt!'"
+        "Comments": [
+            "Monne: 'Het is grijs, maar je broodje is de zonnestraal die je nodig hebt!'",
+            "Monne: 'Bewolkt of niet, de slager is altijd open.'",
+            "Monne: 'Grijs weer? Broodje erbij en de dag is gered!'"
+        ]
     },
     {
         "Code": "45",
         "Description": "Mist",
-        "Comment": "Monne: 'Goed kijken, anders loop je zo de Jumbo voorbij in de mist!'"
+        "Comments": [
+            "Monne: 'Goed kijken, anders loop je zo de Jumbo voorbij in de mist!'",
+            "Monne: 'Mistig, maar je neus brengt je wel naar dat broodje.'",
+            "Monne: 'In de mist verdwijnt alles... behalve je trek!'"
+        ]
     },
     {
         "Code": "48",
         "Description": "Aanhoudende rijp-mist",
-        "Comment": "Monne: 'Zorg dat je niet vastvriest op weg naar de slager!'"
+        "Comments": [
+            "Monne: 'Zorg dat je niet vastvriest op weg naar de slager!'",
+            "Monne: 'Koude mist, maar een warm broodje maakt alles goed.'",
+            "Monne: 'In deze kou moet je wel extra snel naar de Jumbo!'"
+        ]
     },
     {
         "Code": "51",
         "Description": "Motregen: Lichte intensiteit",
-        "Comment": "Monne: 'Een beetje motregen, niks wat een goed broodje niet kan oplossen.'"
+        "Comments": [
+            "Monne: 'Een beetje motregen, niks wat een goed broodje niet kan oplossen.'",
+            "Monne: 'Lichte regen, maar dat broodje loopt niet weg!'",
+            "Monne: 'Motregen is alleen maar extra motivatie voor een warme lunch.'"
+        ]
     },
     {
         "Code": "53",
         "Description": "Motregen: Matige intensiteit",
-        "Comment": "Monne: 'Matige motregen, maar wel sterke trek in een broodje!'"
+        "Comments": [
+            "Monne: 'Matige motregen, maar wel sterke trek in een broodje!'",
+            "Monne: 'Snel naar de slager, voor de regen echt losbarst!'",
+            "Monne: 'Matige motregen, maar dat broodje smaakt straks beter dan ooit.'"
+        ]
     },
     {
         "Code": "55",
         "Description": "Motregen: Dichte intensiteit",
-        "Comment": "Monne: 'Bij deze regen moet je rennen naar de Jumbo!'"
+        "Comments": [
+            "Monne: 'Bij deze regen moet je rennen naar de Jumbo!'",
+            "Monne: 'Dikke motregen, tijd om die regenjas uit de kast te halen.'",
+            "Monne: 'Dikke motregen, maar voor een broodje moet je wat over hebben!'"
+        ]
     },
     {
         "Code": "56",
         "Description": "Ijzel-motregen: Lichte intensiteit",
-        "Comment": "Monne: 'Voorzichtig lopen, glibberend op zoek naar een broodje!'"
+        "Comments": [
+            "Monne: 'Voorzichtig lopen, glibberend op zoek naar een broodje!'",
+            "Monne: 'Het glimt buiten, maar dat broodje trekt nog harder.'",
+            "Monne: 'Ijzelregen, glijden voor een broodje is de nieuwe sport.'"
+        ]
     },
     {
         "Code": "57",
         "Description": "Ijzel-motregen: Dichte intensiteit",
-        "Comment": "Monne: 'Kans op ijsbaan... maar het broodje wacht!'"
+        "Comments": [
+            "Monne: 'Kans op ijsbaan... maar het broodje wacht!'",
+            "Monne: 'De straten zijn glad, maar je verlangen naar een sandwich is groot.'",
+            "Monne: 'Een spiegelgladde weg, tijd om binnen te blijven? Nee, broodjes halen!'"
+        ]
     },
     {
         "Code": "61",
         "Description": "Regen: Lichte intensiteit",
-        "Comment": "Monne: 'Een spatje regen, maar niet erg genoeg om dat broodje te missen!'"
+        "Comments": [
+            "Monne: 'Een spatje regen, maar niet erg genoeg om dat broodje te missen!'",
+            "Monne: 'Lichte regen, maar je lunchwandeling moet doorgaan.'",
+            "Monne: 'Je wordt misschien nat, maar dat broodje maakt alles goed.'"
+        ]
     },
     {
         "Code": "63",
         "Description": "Regen: Matige intensiteit",
-        "Comment": "Monne: 'Pak die paraplu, maar haal wel je broodje.'"
+        "Comments": [
+            "Monne: 'Pak die paraplu, maar haal wel je broodje.'",
+            "Monne: 'Zonder paraplu? Dan loop je voor het broodje én een gratis douche.'",
+            "Monne: 'Matige regen, maar je broodje is de echte traktatie.'"
+        ]
     },
     {
         "Code": "65",
         "Description": "Regen: Zware intensiteit",
-        "Comment": "Monne: 'Je gaat nat, maar dat broodje is het waard!'"
+        "Comments": [
+            "Monne: 'Je gaat nat, maar dat broodje is het waard!'",
+            "Monne: 'Zware regen, maar een broodje met extra saus is altijd goed.'",
+            "Monne: 'Zwaar weer voor een sandwichheld!'"
+        ]
     },
     {
         "Code": "66",
         "Description": "Ijzelregen: Lichte intensiteit",
-        "Comment": "Monne: 'Een glibberige missie voor een broodje, maar geen uitdaging te groot!'"
+        "Comments": [
+            "Monne: 'Een glibberige missie voor een broodje, maar geen uitdaging te groot!'",
+            "Monne: 'Ijzelregen, maar het broodje is onmisbaar!'",
+            "Monne: 'Lichte ijzelregen, misschien is het vandaag beter om te laten bezorgen.'"
+        ]
     },
     {
         "Code": "67",
         "Description": "Ijzelregen: Zware intensiteit",
-        "Comment": "Monne: 'Trek je schaatsen aan voor deze broodjestocht!'"
+        "Comments": [
+            "Monne: 'Trek je schaatsen aan voor deze broodjestocht!'",
+            "Monne: 'Zware ijzelregen, maar jij bent een doorzetter.'",
+            "Monne: 'Ijzelregen en een epische tocht naar de slager.'"
+        ]
     },
     {
         "Code": "71",
         "Description": "Sneeuwval: Lichte intensiteit",
-        "Comment": "Monne: 'Licht sneeuwtapijtje, net als poedersuiker op je broodje.'"
+        "Comments": [
+            "Monne: 'Licht sneeuwtapijtje, net als poedersuiker op je broodje.'",
+            "Monne: 'Sneeuwval en een warm broodje, perfecte combinatie!'",
+            "Monne: 'Licht sneeuwt, misschien is een warme soep bij je broodje een goed idee.'"
+        ]
     },
     {
         "Code": "73",
         "Description": "Sneeuwval: Matige intensiteit",
-        "Comment": "Monne: 'Het sneeuwt, maar met een broodje in de hand maakt dat niet uit!'"
+        "Comments": [
+            "Monne: 'Het sneeuwt, maar met een broodje in de hand maakt dat niet uit!'",
+            "Monne: 'Sneeuwvlokken en een sandwich, het perfecte winterduo.'",
+            "Monne: 'Sneeuwbui of niet, de Jumbo is altijd in zicht!'"
+        ]
     },
     {
         "Code": "75",
         "Description": "Sneeuwval: Zware intensiteit",
-        "Comment": "Monne: 'Winterwonderland, maar we gaan voor broodjes in plaats van ski's!'"
+        "Comments": [
+            "Monne: 'Winterwonderland, maar we gaan voor broodjes in plaats van ski's!'",
+            "Monne: 'Zware sneeuwval? Alleen voor de echte broodje-liefhebber.'",
+            "Monne: 'Sneeuwstorm of niet, die sandwich is het waard!'"
+        ]
     },
     {
         "Code": "77",
         "Description": "Sneeuwkorrels",
-        "Comment": "Monne: 'Sneeuwkorrels, net kleine broodkruimels!'"
+        "Comments": [
+            "Monne: 'Sneeuwkorrels, net kleine broodkruimels!'",
+            "Monne: 'Sneeuwkorrels op de weg, broodkruimels in je maag!'",
+            "Monne: 'Sneeuwkorrels? Zolang je geen sandwichkorrels krijgt!'"
+        ]
     },
     {
         "Code": "80",
         "Description": "Regenbuien: Lichte intensiteit",
-        "Comment": "Monne: 'Een snelle bui, hopelijk ben je net op tijd bij de slager!'"
+        "Comments": [
+            "Monne: 'Een snelle bui, hopelijk ben je net op tijd bij de slager!'",
+            "Monne: 'Lichte bui, maar die sandwich kun je nog wel halen!'",
+            "Monne: 'Korte regenbui, maar je trek blijft groot.'"
+        ]
     },
     {
         "Code": "81",
         "Description": "Regenbuien: Matige intensiteit",
-        "Comment": "Monne: 'Regenbui, tijd om dat broodje zo snel mogelijk te halen!'"
+        "Comments": [
+            "Monne: 'Regenbui, tijd om dat broodje zo snel mogelijk te halen!'",
+            "Monne: 'Matige regenbuien, maar niks houdt je tegen voor die lunch!'",
+            "Monne: 'Regenbui of niet, een broodje smaakt altijd.'"
+        ]
     },
     {
         "Code": "82",
         "Description": "Regenbuien: Zware intensiteit",
-        "Comment": "Monne: 'Je gaat doorweekt zijn, maar dat broodje zal smaken!'"
+        "Comments": [
+            "Monne: 'Je gaat doorweekt zijn, maar dat broodje zal smaken!'",
+            "Monne: 'Zware buien, maar een broodje maakt alles goed.'",
+            "Monne: 'Zware regen, tijd om de paraplu én het broodje te pakken.'"
+        ]
     },
     {
         "Code": "85",
         "Description": "Sneeuwbuien: Lichte intensiteit",
-        "Comment": "Monne: 'Licht sneeuwt, maar niks stopt de broodjesjacht!'"
+        "Comments": [
+            "Monne: 'Licht sneeuwt, maar niks stopt de broodjesjacht!'",
+            "Monne: 'Lichte sneeuwbuien, maar broodjes maken alles goed.'",
+            "Monne: 'Je ziet misschien wat sneeuwvlokken, maar dat broodje roept.'"
+        ]
     },
     {
         "Code": "86",
         "Description": "Sneeuwbuien: Zware intensiteit",
-        "Comment": "Monne: 'Zware sneeuwval, tijd voor een broodje én warme chocolademelk.'"
+        "Comments": [
+            "Monne: 'Zware sneeuwval, tijd voor een broodje én warme chocolademelk.'",
+            "Monne: 'Zware sneeuw, maar dat broodje houdt je warm.'",
+            "Monne: 'Sneeuwstorm, maar met een broodje ben je altijd op koers.'"
+        ]
     },
     {
         "Code": "95",
         "Description": "Onweer: Lichte intensiteit",
-        "Comment": "Monne: 'Een beetje donder, maar jij dender door naar de Jumbo!'"
+        "Comments": [
+            "Monne: 'Een beetje donder, maar jij dender door naar de Jumbo!'",
+            "Monne: 'Licht onweer, maar je broodje is onweerstaanbaar.'",
+            "Monne: 'Een donderslag en een sandwich, perfect duo.'"
+        ]
     },
     {
         "Code": "96",
         "Description": "Onweer met lichte hagel",
-        "Comment": "Monne: 'Hagel, maar als je snel loopt ben je binnen voor de ergste bui!'"
+        "Comments": [
+            "Monne: 'Hagel, maar als je snel loopt ben je binnen voor de ergste bui!'",
+            "Monne: 'Lichte hagel, tijd om je helm op te zetten voor het broodje!'",
+            "Monne: 'Hagel of niet, die sandwich wacht niet.'"
+        ]
     },
     {
         "Code": "99",
         "Description": "Onweer met zware hagel",
-        "Comment": "Monne: 'Zware hagel, dit keer toch maar even het broodje laten bezorgen?'"
+        "Comments": [
+            "Monne: 'Zware hagel, dit keer toch maar even het broodje laten bezorgen?'",
+            "Monne: 'Zware hagel, misschien vandaag binnen lunchen?'",
+            "Monne: 'Zware hagel, misschien morgen beter voor een broodje.'"
+        ]
     }
 ]
